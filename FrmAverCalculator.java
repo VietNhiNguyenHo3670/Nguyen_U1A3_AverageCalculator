@@ -178,6 +178,7 @@ public class FrmAverCalculator extends javax.swing.JFrame {
          //Calculaion 
          average =(double) ((mark1 + mark2 + mark3 + mark4)/4.0);
          roundAverage = Math.round(average*10)/10.0;
+        //printl output
          lblAverageValue.setText(String.valueOf(roundAverage));
     }//GEN-LAST:event_btnCalculateAverActionPerformed
 
